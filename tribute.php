@@ -1,10 +1,4 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,52 +15,20 @@
             body {
                 margin-top:50px;
             }
-            /*.container *{*/
-            /*.well * {*/
-            .jumbotron * {
-/*                margin-left: auto;
-                margin-right: auto;
-                max-width:600px;*/
-            }
-            div.noLimit {
-/*                margin-left: auto;
-                margin-right: auto;*/
-                /*width:100% !important;*/
-            }
-            h1.lead {
-                font-size: 400%;
-            }
-/*            .thumbnail {
-                max-width: 800px;
-            }*/
-/*            .img-thumbnail {
-                max-width: 800px;
-            }*/
         </style>
     </head>
     <body>
-        <!--<div>-->
-        <!--<div class="container-fluid">-->
         <div class="container">
             <div class="jumbotron">
-                <h1 class="lead text-center">Homer Jay Simpson</h1>
+                <h1 class="text-center">Homer Jay Simpson</h1>
                 <h2 class="text-center"><em>The man who did everything</em></h2>    
-<!--                <img src="img/882ecb483ff68ad7863524a7bd5a360b.jpg" alt="" class="img-responsive"/>
-                <img src="img/Homer_Simps   on_2006.png" alt="" class="img-responsive"/>
-                <img src="img/homer-simpson-08.jpg" alt="" class="img-responsive"/>-->
-                <!--<div class="thumbnail text-center">-->
-                <div class="text-center noLimit">
-                    <!--<div class="img-thumbnail img-responsive text-center">-->
+                <div class="text-center">
                     <div class="thumbnail  ">
-                        <!--<img src="img/homer_2008_v2F_hires2.jpg" alt="" class="img-responsive"/>-->
-                        <!--<img src="img/homer_2008_v2F_hires2.jpg" alt=""/>-->
                         <img src="img/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg" alt="" class="img-responsive"/>
                         <div class="caption"><a href="http://randomwallpapers.net/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg"> Homer J. Simpson </a></div>
                     </div>
                 </div>
                 <div class="row">
-<!--                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">-->
                     <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <ul>
                 <li>Account Executive ("The Man in the Blue Flannel Pants")</li><li>
@@ -234,7 +196,7 @@
             </div>
             <footer class="text-center">
                 <hr>
-                Written and coded by <a href="https://github.com/QGfcc/learning">QG</a>
+                Coded by <a href="https://github.com/QGfcc/learning">QG</a>
             </footer>
         </div>
     </body>
