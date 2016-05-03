@@ -30,6 +30,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                        <h3> Here's a non-exhaustive list of Homer Simpson's jobs : </h3>
             <ul>
                 <li>Account Executive ("The Man in the Blue Flannel Pants")</li><li>
                 Acrobat ("Goo Goo Gai Pan")</li><li>
