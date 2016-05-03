@@ -13,7 +13,30 @@
         <title> tribute </title>
         <style>
             body {
-                margin-top:50px;
+                margin-top: 50px;
+                background-color: #08A;
+                color: yellow;
+            }
+            .jumbotron {
+                background-color: yellow;
+                color: #08A;
+            }
+            .thumbnail {
+                background-color: #FF6;
+            }
+            .thumbnail .caption {
+                color: #08A;
+            }
+            footer a {
+                color: yellow;
+                font-size: 1.2em;
+                text-decoration: underline;
+            }
+            blockquote {
+                border:none;
+            }
+            hr {
+                border-color: yellow;
             }
         </style>
     </head>
@@ -24,14 +47,16 @@
                 <h2 class="text-center"><em>The man who did everything</em></h2>    
                 <div class="text-center">
                     <div class="thumbnail  ">
-                        <img src="img/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg" alt="" class="img-responsive"/>
-                        <div class="caption"><a href="http://randomwallpapers.net/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg"> Homer J. Simpson </a></div>
+                        <img src="http://randomwallpapers.net/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg" alt="" class="img-responsive"/>
+                        <div class="caption"> Homer J. Simpson </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                    <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-center">
+                        
                         <h3> Here's a non-exhaustive list of Homer Simpson's jobs :  </h3>
-            <ul>
+                        
+                        <ul class="text-left" style="display:inline-block">
                 <li>Account Executive ("The Man in the Blue Flannel Pants")</li><li>
                 Acrobat ("Goo Goo Gai Pan")</li><li>
                 Actor ("Homer the Whopper", "A Midsummer's Nice Dream", "Ned 'N Edna's Blend")</li><li>
@@ -183,6 +208,8 @@
                     I Married Marge </li>
                 </ul>
             </ul>
+                            <!--</div>-->
+                        <!--</div>-->
                     <blockquote>
                         <p>
                             "Trying is the first step towards failure."
