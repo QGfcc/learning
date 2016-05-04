@@ -47,12 +47,12 @@
                 <h2 class="text-center"><em>The man who did everything</em></h2>    
                 <div class="text-center">
                     <div class="thumbnail  ">
-                        <img src="http://randomwallpapers.net/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg" alt="" class="img-responsive"/>
+                        <img src="http://randomwallpapers.net/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg" alt="Homer Simpson happy   " class="img-responsive"/>
                         <div class="caption"> Homer J. Simpson </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-center">
+                    <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
                         
                         <h3> Here's a non-exhaustive list of Homer Simpson's jobs :  </h3>
                         
