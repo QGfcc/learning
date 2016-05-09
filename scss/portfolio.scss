@@ -1,0 +1,52 @@
+
+$background1: #3c9ce7;
+/*$background2: #acdaff;*/
+$background2: #79ffff;
+$backgroundHover: #0a78ce;
+$colorHover: white;
+$color1: $background2;
+$color2: $background1;
+
+$background: $background1;
+$color: $background2;
+
+
+.navbar {
+    box-shadow: 0px -4px 10px 7px rgba(0,0,0,0.75);
+}
+section, footer  { 
+    padding: 70px 0; 
+    &:last-child {
+        padding: 10px 0; 
+    }
+    .thumbnail {
+        border: none;
+    }
+    &:nth-child(odd) {
+        background-color: $background1;
+        color: $color1;
+        box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+        .thumbnail {
+            background-color: $background2;
+            .caption {
+                color: $color2;
+            }
+            &:hover {
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            }
+        }
+    }
+    &:nth-child(even) {
+        background-color: $background2;
+        color: $color2;
+        .thumbnail {
+            background-color: $background1;
+            .caption {
+                color: $color1;
+            }
+            &:hover {
+                box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+            }
+        }
+    }
+}

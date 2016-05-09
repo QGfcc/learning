@@ -1,0 +1,93 @@
+
+@import "portfolio.scss";
+
+/* navbar */
+/*$background: #3c9ce7;
+$backgroundHover: #0a78ce;
+$colorHover: white;
+$color: #acdaff;
+$color: #79ffff;*/
+$backgroundDropDown: $backgroundHover;
+$colorDropDown: $colorHover;
+$colorDropDownHover: $colorHover;
+$colorBorder: $background;
+$colorBrand: $color;
+$colorBrandHover: $colorHover;
+$backgroundOpenHover: $backgroundHover;
+$colorOpenHover: $colorHover;
+$colorActive: $colorHover;
+$backgroundActive: $backgroundHover;
+$caret: $color;
+$caretHover: $colorHover;
+$borderToggle: $background;
+$borderToggleHover: $backgroundHover;
+$borderToggleIcon: $color;
+
+.navbar-default.navbar-custom {
+    background-color: $background;
+    border-color: $colorBorder;
+}
+/* title */
+.navbar-default.navbar-custom .navbar-brand {
+    color: $colorBrand;
+}
+.navbar-default.navbar-custom .navbar-brand:hover,
+.navbar-default.navbar-custom .navbar-brand:focus {
+    color: $colorBrandHover;
+}
+/* link */
+.navbar-default.navbar-custom .navbar-nav > li > a {
+    color: $color;
+}
+.navbar-default.navbar-custom .navbar-nav > li > a:hover,
+.navbar-default.navbar-custom .navbar-nav > li > a:focus {
+    color: $colorHover;
+}
+.navbar-default.navbar-custom .navbar-nav > .active > a, 
+.navbar-default.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-default.navbar-custom .navbar-nav > .active > a:focus {
+    color: $colorActive;
+    background-color: $backgroundActive;
+}
+.navbar-default.navbar-custom .navbar-nav > .open > a, 
+.navbar-default.navbar-custom .navbar-nav > .open > a:hover, 
+.navbar-default.navbar-custom .navbar-nav > .open > a:focus {
+    color: $colorOpenHover;
+    background-color: $backgroundOpenHover;
+}
+/* caret */
+.navbar-default.navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: $caret;
+    border-bottom-color: $caret;
+}
+.navbar-default.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: $caretHover;
+    border-bottom-color: $caretHover;
+}
+.navbar-default.navbar-custom .navbar-nav > .open > a .caret, 
+.navbar-default.navbar-custom .navbar-nav > .open > a:hover .caret, 
+.navbar-default.navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: $caretHover;
+    border-bottom-color: $caretHover;
+}
+/* mobile version */
+.navbar-default.navbar-custom .navbar-toggle {
+    border-color: $borderToggle;
+}
+.navbar-default.navbar-custom .navbar-toggle:hover,
+.navbar-default.navbar-custom .navbar-toggle:focus {
+    background-color: $borderToggleHover;
+}
+.navbar-default.navbar-custom .navbar-toggle .icon-bar {
+    background-color:  $borderToggleIcon;
+}
+@media (max-width: 767px) {
+    .navbar-default.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: $colorDropDown;
+    }
+    .navbar-default.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default.navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: $colorDropDownHover;
+    }
+}

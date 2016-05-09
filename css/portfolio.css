@@ -1,0 +1,31 @@
+/*$background2: #acdaff;*/
+.navbar {
+  box-shadow: 0px -4px 10px 7px rgba(0, 0, 0, 0.75); }
+
+section, footer {
+  padding: 70px 0; }
+  section:last-child, footer:last-child {
+    padding: 10px 0; }
+  section .thumbnail, footer .thumbnail {
+    border: none; }
+  section:nth-child(odd), footer:nth-child(odd) {
+    background-color: #3c9ce7;
+    color: #79ffff;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+    section:nth-child(odd) .thumbnail, footer:nth-child(odd) .thumbnail {
+      background-color: #79ffff; }
+      section:nth-child(odd) .thumbnail .caption, footer:nth-child(odd) .thumbnail .caption {
+        color: #3c9ce7; }
+      section:nth-child(odd) .thumbnail:hover, footer:nth-child(odd) .thumbnail:hover {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+  section:nth-child(even), footer:nth-child(even) {
+    background-color: #79ffff;
+    color: #3c9ce7; }
+    section:nth-child(even) .thumbnail, footer:nth-child(even) .thumbnail {
+      background-color: #3c9ce7; }
+      section:nth-child(even) .thumbnail .caption, footer:nth-child(even) .thumbnail .caption {
+        color: #79ffff; }
+      section:nth-child(even) .thumbnail:hover, footer:nth-child(even) .thumbnail:hover {
+        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+
+/*# sourceMappingURL=portfolio.css.map */
