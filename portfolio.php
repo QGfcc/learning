@@ -323,7 +323,8 @@
                     <!--<div class="text-center">-->
                         <!--<p class="text-left">-->
                     <!--<h6 class="text-center">-->   
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum nisi ante, et posuere purus posuere eu.</h6>
+                        <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque condimentum nisi ante, et posuere purus posuere eu.-->
+                        Coded by <a href="https://github.com/QGfcc/learning">QG</a>
                         <!--</p>-->
                     <!--</div>-->
                 <!--</div>-->

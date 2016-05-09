@@ -28,4 +28,9 @@ section, footer {
       section:nth-child(even) .thumbnail:hover, footer:nth-child(even) .thumbnail:hover {
         box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
 
+footer a {
+  color: inherit;
+  font-size: 1.2em;
+  text-decoration: underline; }
+
 /*# sourceMappingURL=portfolio.css.map */
