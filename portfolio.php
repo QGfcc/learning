@@ -16,11 +16,20 @@
         <title> QG Portfolio </title>
         <style>
         </style>
+        <script>
+            $(document).ready(function(){
+                $('body').scrollspy(
+                    { 
+                        target: '#navBarContainer'
+                    }
+                )
+            });
+        </script>
     </head>
     <body>
         <header>
         <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-            <div class="container-fluid">
+            <div class="container-fluid" id="navBarContainer">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#toggledNav" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>

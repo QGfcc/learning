@@ -39,6 +39,8 @@ $backgroundHover: #0a78ce;
 $colorHover: white;
 $color: #acdaff;
 $color: #79ffff;*/
+/*$colorActive: $colorHover;
+$backgroundActive: $backgroundHover;*/
 .navbar-default.navbar-custom {
   background-color: #3c9ce7;
   border-color: #3c9ce7; }
@@ -62,8 +64,8 @@ $color: #79ffff;*/
 .navbar-default.navbar-custom .navbar-nav > .active > a,
 .navbar-default.navbar-custom .navbar-nav > .active > a:hover,
 .navbar-default.navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #0a78ce; }
+  color: #3c9ce7;
+  background-color: #79ffff; }
 
 .navbar-default.navbar-custom .navbar-nav > .open > a,
 .navbar-default.navbar-custom .navbar-nav > .open > a:hover,
