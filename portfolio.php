@@ -282,7 +282,7 @@
                     <!--<div class="img-thumbnail text-center">-->
                         <a href="https://github.com/QGfcc">
                             <!--<img src="img/homer-simpson-the-simpsons-cartoons-1920x1080-wallpaper478364.jpg" alt="" class="img-thumbnail"/>-->
-                            <img src="img/icon/github.png" alt="" class="img-responsive img-circle"/>
+                            <img src="img/icon/github.png" alt="" class="img-responsive img-circle socialIcon"/>
 <!--                            <div class="caption">
                                 GitHub
                             </div>-->
@@ -293,7 +293,7 @@
                 <div class="<?php echo $rowSet;?>">
                     <!--<div class="img-thumbnail text-center">-->
                         <a href="https://www.freecodecamp.com/qgfcc">
-                            <img src="img/icon/index_inverted transparent.png" alt="" class="img-responsive img-circle"/>
+                            <img src="img/icon/index_inverted transparent.png" alt="" class="img-responsive img-circle socialIcon"/>
 <!--                            <div class="caption">
                                 FreeCodeCamp
                             </div>-->
@@ -304,7 +304,7 @@
                 <div class="<?php echo $rowSet;?>">
                     <!--<div class="img-thumbnail text-center">-->
                         <a href="https://www.linkedin.com/">
-                            <img src="img/icon/linkedin-3-xxl.png" alt="" class="img-responsive img-circle"/>
+                            <img src="img/icon/linkedin-3-xxl.png" alt="" class="img-responsive img-circle socialIcon"/>
 <!--                            <div class="caption">
                                 LinkedIn
                             </div>-->
@@ -314,8 +314,8 @@
                 <!--<div class="col-xs-3 col-sm-2 col-md-1">-->
                 <div class="<?php echo $rowSet;?>">
                     <!--<div class="img-thumbnail text-center">-->
-                        <a href="https://facebook.com/">
-                            <img src="img/icon/facebook-symbol_318-37686.png" alt="" class="img-responsive img-circle"/>
+                    <a href="https://facebook.com/">
+                            <img src="img/icon/facebook-symbol_318-37686.png" alt="" class="img-responsive img-circle socialIcon"/>
 <!--                            <div class="caption">
                                 Facebook
                             </div>-->

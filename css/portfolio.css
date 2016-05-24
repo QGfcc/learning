@@ -1,4 +1,7 @@
 /*$background2: #acdaff;*/
+* {
+  transition: 0.3s; }
+
 .navbar {
   box-shadow: 0px -4px 10px 7px rgba(0, 0, 0, 0.75); }
 
@@ -7,30 +10,50 @@ section, footer {
   section:last-child, footer:last-child {
     padding: 10px 0; }
   section .thumbnail, footer .thumbnail {
-    border: none; }
+    border: none;
+    transition: box-shadow 0.2s, border 0.2s; }
   section:nth-child(odd), footer:nth-child(odd) {
     background-color: #3c9ce7;
     color: #79ffff;
-    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+    box-shadow: inset 0px 0px 10px 0px black; }
     section:nth-child(odd) .thumbnail, footer:nth-child(odd) .thumbnail {
-      background-color: #79ffff; }
+      background-color: #79ffff;
+      border: 0px solid #3c9ce7;
+      box-shadow: 0px 0px 10px 0px black; }
       section:nth-child(odd) .thumbnail .caption, footer:nth-child(odd) .thumbnail .caption {
         color: #3c9ce7; }
       section:nth-child(odd) .thumbnail:hover, footer:nth-child(odd) .thumbnail:hover {
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+        box-shadow: none;
+        border: 1px solid; }
+      section:nth-child(odd) .thumbnail a, footer:nth-child(odd) .thumbnail a {
+        text-decoration: none; }
   section:nth-child(even), footer:nth-child(even) {
     background-color: #79ffff;
     color: #3c9ce7; }
     section:nth-child(even) .thumbnail, footer:nth-child(even) .thumbnail {
-      background-color: #3c9ce7; }
+      background-color: #3c9ce7;
+      box-shadow: inset 0px 0px 10px 0px black;
+      border: 1px solid #79ffff; }
       section:nth-child(even) .thumbnail .caption, footer:nth-child(even) .thumbnail .caption {
         color: #79ffff; }
       section:nth-child(even) .thumbnail:hover, footer:nth-child(even) .thumbnail:hover {
-        box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+        box-shadow: none;
+        border: 0px solid; }
+      section:nth-child(even) .thumbnail a, footer:nth-child(even) .thumbnail a {
+        text-decoration: none; }
 
 footer a {
   color: inherit;
   font-size: 1.2em;
   text-decoration: underline; }
+
+.socialIcon {
+  background-color: #3c9ce7;
+  box-shadow: inset 0px 0px 25px 0px black;
+  border: 4px solid #3c9ce7; }
+
+.socialIcon:hover {
+  box-shadow: none;
+  border: 0px solid #79ffff; }
 
 /*# sourceMappingURL=portfolio.css.map */
